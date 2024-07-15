@@ -1,13 +1,21 @@
 # CS-SQL
+Estos apuntes fueron creados mientras estudiaba y repasaba algunos de los temas después de completar el CFGS. Estoy abierto a cualquier corrección en caso de errores.
 
-<strong>Que son las bases de datos ?</strong>
+## <strong>Que son las bases de datos ?</strong>
   
 Una base de datos es una colección organizada de datos que permite su almacenamiento, acceso y manipulación de manera eficiente. Está diseñada para gestionar grandes volúmenes de información y proporcionar las herramientas necesarias para que los usuarios puedan consultar, actualizar y administrar los datos según sus necesidades específicas.
 
-<strong>Que diferencia existe entre Mysql y SQL ? </strong>
+## <strong>Que diferencia hay entre bases de datos relacionales y las no relacionales ?</strong>
+Las bases de datos relacionales consisten en una colección de datos organizados en tablas. Se utiliza SQL como lenguaje para la manipulación de estas tablas, enfocándose en la organización de los datos en partes interrelacionadas mediante identificadores. Por otro lado las bases de datos no relacionales se enfocan mas a datos 
+
+## <strong>Que diferencia existe entre Mysql y SQL ? </strong>
   
 SQL (Structured Query Language) es el lenguaje estándar utilizado para establecer comunicación con nuestras bases de datos, permitiendo realizar consultas, actualizaciones, inserciones y eliminaciones de datos, así como la gestión de la estructura de la base de datos.
   
 | Ejemplo | Description |
 | --- | --- |
-| SELECT * FROM dogs_name | Todos los nombres que tengamos de perros en nuestra base de datos 
+| SELECT * FROM cats_name | Todos los nombres que tengamos de gatos en nuestra base de datos.
+
+Por otro lado, MySQL es uno de los posibles sistemas de gestión de bases de datos que utiliza SQL para manipular los datos.   
+  
+Existen varios gestores de bases de datos diferentes, como <strong>MySQL, SQLite, PostgreSQL y Oracle, entre otros.</strong>
