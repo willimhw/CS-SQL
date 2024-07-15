@@ -6,7 +6,7 @@ Estos apuntes fueron creados mientras estudiaba y repasaba algunos de los temas 
 Una base de datos es una colección organizada de datos que permite su almacenamiento, acceso y manipulación de manera eficiente. Está diseñada para gestionar grandes volúmenes de información y proporcionar las herramientas necesarias para que los usuarios puedan consultar, actualizar y administrar los datos según sus necesidades específicas.
 
 ## <strong>Que diferencia hay entre bases de datos relacionales y las no relacionales ?</strong>
-Las bases de datos relacionales consisten en una colección de datos organizados en tablas. Se utiliza SQL como lenguaje para la manipulación de estas tablas, enfocándose en la organización de los datos en partes interrelacionadas mediante identificadores. Por otro lado las bases de datos no relacionales se enfocan mas a datos 
+Las bases de datos relacionales consisten en una colección de datos organizados en tablas. SQL se utiliza como lenguaje para la manipulación de estas tablas, enfocándose en la organización de los datos en partes interrelacionadas mediante identificadores. En contraste, las bases de datos no relacionales se centran en modelos de datos específicos con esquemas más flexibles. Su principal característica diferenciadora respecto a las bases de datos relacionales es la ausencia de identificadores que establezcan relaciones entre conjuntos de datos.
 
 ## <strong>Que diferencia existe entre Mysql y SQL ? </strong>
   
