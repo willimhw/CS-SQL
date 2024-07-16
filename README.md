@@ -23,17 +23,20 @@ Existen varios gestores de bases de datos diferentes, como <strong>MySQL, SQLite
 ## Tipos de datos
 
 
-Al crear una tabla mediante SQL, es fundamental especificar el tipo de datos que se van a introducir. A continuación, presento una tabla con los formatos de datos más utilizados. Cabe mencionar que existen muchos más tipos de datos. Si deseas consultarlos, puedes visitar el sitio web de [W3schools](https://www.w3schools.com/sql/sql_datatypes.asp)
+Al crear una tabla mediante SQL, es fundamental especificar el tipo de datos que se van a introducir. A continuación, presento una tabla con los formatos de datos más utilizados. Cabe mencionar que existen muchos más tipos de datos.
+  
+Si deseas consultarlos, puedes visitar el sitio web de [W3schools](https://www.w3schools.com/sql/sql_datatypes.asp)
 
-<a href="http://example.com/" target="_blank">example</a>
+| String Data | Description |     
+| --- | --- |                      
+| CHAR| Description |              
+| VARCHAR | Description |
+| ENUM | Description |
 
 
-
-
-| Datos | Description |
+| String Data | Description |
 | --- | --- |
-| CHAR(size) | Description |
-| Ejemplo | Description |
-| Ejemplo | Description |
-| Ejemplo | Description |
-| Ejemplo | Description |
+| CHAR| Description |
+| VARCHAR | Description |
+| ENUM | Description |
+
