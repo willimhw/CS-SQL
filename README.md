@@ -12,10 +12,24 @@ Las bases de datos relacionales consisten en una colección de datos organizados
   
 SQL (Structured Query Language) es el lenguaje estándar utilizado para establecer comunicación con nuestras bases de datos, permitiendo realizar consultas, actualizaciones, inserciones y eliminaciones de datos, así como la gestión de la estructura de la base de datos.
   
-| Ejemplo | Description |
+| Ejemplo | Descripción |
 | --- | --- |
 | SELECT * FROM cats_name | Todos los nombres que tengamos de gatos en nuestra base de datos.
 
 Por otro lado, MySQL es uno de los posibles sistemas de gestión de bases de datos que utiliza SQL para manipular los datos.   
   
 Existen varios gestores de bases de datos diferentes, como <strong>MySQL, SQLite, PostgreSQL y Oracle, entre otros.</strong>
+
+## Tipos de datos
+
+Al momento de crear una tabla a través de SQL necesitaremos especificar que tipo datos seran los que introducimos, es por ello que aqui expongo una tabla con los formatos mas utilizados. Aclaro que existen muchos mas tipos de datos y en caso de querer consultarlos dejo aqui el link a la web de [W3schools](https://www.w3schools.com/sql/sql_datatypes.asp)
+
+
+
+| Datos | Description |
+| --- | --- |
+| CHAR(size) | Description |
+| Ejemplo | Description |
+| Ejemplo | Description |
+| Ejemplo | Description |
+| Ejemplo | Description |
