@@ -22,21 +22,43 @@ Existen varios gestores de bases de datos diferentes, como <strong>MySQL, SQLite
 
 ## Tipos de datos
 
-
 Al crear una tabla mediante SQL, es fundamental especificar el tipo de datos que se van a introducir. A continuación, presento una tabla con los formatos de datos más utilizados. Cabe mencionar que existen muchos más tipos de datos.
   
 Si deseas consultarlos, puedes visitar el sitio web de [W3schools](https://www.w3schools.com/sql/sql_datatypes.asp)
 
 | String Data | Description |     
 | --- | --- |                      
-| CHAR| Description |              
-| VARCHAR | Description |
-| ENUM | Description |
+| CHAR| Cadena de longitud fija que puede contener letras, números y caracteres especiales, con una longitud de 1 a 255 caracteres. De modo predeterminado, su valor es 1. |              
+| VARCHAR | Cadena de longitud fija que puede contener letras, números y caracteres especiales, con una longitud de 1 a 65535 caracteres.|
 
-
-| String Data | Description |
+| Numeric Data | Description |
 | --- | --- |
-| CHAR| Description |
-| VARCHAR | Description |
-| ENUM | Description |
+| INT|  Un integer de rango medio. El rango alcanza desde -2147483648 a 2147483647.|
+| DECIMAL | Valor utilizado para las expresiones con decimales. |
 
+| Numeric Data | Description |
+| --- | --- |
+| TIME| Formato para hh:mm:ss |
+| DATE | Formato para YYYY-MM-DD |
+| YEAR | Formato de 4 digitos numericos. |
+
+## Claves primarias y Claves Foraneas
+
+La clave primaria (primary key) es una columna o un conjunto de columnas en una tabla cuyas valores son únicos entre sí, con el objetivo de diferenciar de manera inequívoca cada fila de la tabla. Es decir, cada valor de la clave primaria debe ser único y no nulo.
+
+Si tenemos una tabla de  
+
+| user_id | Nombre | Email |        
+| --- | --- | --- |                        
+| 1|  Anna|  anna@example.com|             
+| 2|  Pedro|  pedro@example.com|
+| 3|  Marta|  marta@example.com|
+ 
+
+En este caso, user_id es la clave primaria porque cada valor es único y permite identificar de forma exclusiva cada registro de la tabla.
+
+> Para hacer un uso más óptimo de una clave primaria, podemos utilizar el atributo AUTO_INCREMENT, ya que nos asignará valores de forma incremental a la columna especificada en la tabla.
+
+Por otro lado las claves foráneas (foreign keys) son columnas en una tabla que establecen una relación con la clave primaria de otra tabla. Su principal función es asegurar la integridad referencial de los datos, lo que significa que solo pueden contener valores presentes en la clave primaria de la tabla a la que hacen referencia.
+
+# Ejemplos de bases de datos
