@@ -1,4 +1,4 @@
-# CS-SQL
+# CheatSheet-SQL
 Estos apuntes fueron creados mientras estudiaba y repasaba algunos de los temas después de completar el CFGS. Estoy abierto a cualquier corrección en caso de errores.
 
 ## <strong>Que son las bases de datos ?</strong>
@@ -66,7 +66,7 @@ En las bases de datos aparte de tener la posibilidad de modificar estas recoger 
 
     INSERT INTO "DATABASE" (TABLE-1, TABLE-2, TABLE-3) VALUES (DATA-1, DATA-2, DATA-3)
 
-# Ejemplo de Base de Datos con Tablas Relacionadas e Inserción de Datos
+## Ejemplo de Base de Datos con Tablas Relacionadas e Inserción de Datos
 
 CREATE DATABASE school; 
     
@@ -84,3 +84,8 @@ grade INT,
 student_id INT,    
 FOREIGN KEY (student_id) REFERENCES students(book_id)    
 );     
+
+INSERT INTO students (first_name) VALUES  ('Caleb'), ('Samantha'), ('Raj'), ('Carlos'), ('Lisa');    
+INSERT INTO papers (student_id, title, grade ) VALUES (1, 'My First Book Report', 60); 
+
+# Sintaxsis SQL
