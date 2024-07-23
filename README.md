@@ -61,4 +61,26 @@ En este caso, user_id es la clave primaria porque cada valor es único y permite
 
 Por otro lado las claves foráneas (foreign keys) son columnas en una tabla que establecen una relación con la clave primaria de otra tabla. Su principal función es asegurar la integridad referencial de los datos, lo que significa que solo pueden contener valores presentes en la clave primaria de la tabla a la que hacen referencia.
 
-# Ejemplos de bases de datos
+## Inserción de datos
+En las bases de datos aparte de tener la posibilidad de modificar estas recoger informacion y etc tambien tenemos la posibilidad de añadir nuevos datos a las tablas en caso de que sea necesario es por esto que podemos dar uso del :   
+
+    INSERT INTO "DATABASE" (TABLE-1, TABLE-2, TABLE-3) VALUES (DATA-1, DATA-2, DATA-3)
+
+# Ejemplo de Base de Datos con Tablas Relacionadas e Inserción de Datos
+
+CREATE DATABASE school; 
+    
+CREATE TABLE students    
+(     
+book_id INT AUTO_INCREMENT,   
+first_name VARCHAR(100),    
+PRIMARY KEY(book_id)    
+);     
+
+create table papers     
+(    
+title varchar(50),   
+grade INT,    
+student_id INT,    
+FOREIGN KEY (student_id) REFERENCES students(book_id)    
+);     
