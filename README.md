@@ -88,4 +88,4 @@ FOREIGN KEY (student_id) REFERENCES students(book_id)
 INSERT INTO students (first_name) VALUES  ('Caleb'), ('Samantha'), ('Raj'), ('Carlos'), ('Lisa');    
 INSERT INTO papers (student_id, title, grade ) VALUES (1, 'My First Book Report', 60); 
 
-# Sintaxsis SQL
+# Sintaxis  SQL
