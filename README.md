@@ -1,5 +1,7 @@
 # CheatSheet-SQL
-Estos apuntes fueron creados mientras estudiaba y repasaba algunos de los temas después de completar el CFGS. Estoy abierto a cualquier corrección en caso de errores.
+Estos apuntes fueron creados mientras estudiaba y repasaba algunos de los temas después de completar el CFGS. Estoy abierto a cualquier corrección en caso de errores.  
+
+> Algunos datos pueden estar simplificados, por eso siempre recomiendo contrastar con sitios web oficiales.
 
 ## <strong>Que son las bases de datos ?</strong>
   
@@ -89,3 +91,68 @@ INSERT INTO students (first_name) VALUES  ('Caleb'), ('Samantha'), ('Raj'), ('Ca
 INSERT INTO papers (student_id, title, grade ) VALUES (1, 'My First Book Report', 60); 
 
 # Sintaxis  SQL
+
+Diferentes tipos de sentencias y manipulación de datos.
+
+Crea la base de datos.
+
+    CREATE DATABASE <name>; 
+Usa la base de datos.
+
+    USE DATABASE <name>;
+Selecciona la base de datos
+
+    SELECT DATABASE <name>; 
+Borra la base de datos con nombre X.
+
+    DROP DATABASE <name>; 
+Crea una tabla SQL
+
+    CREATE TABLE <name> (DATA TYPES);
+Muestra las tablas de una base de datos
+
+    SHOW TABLES;
+Muestra las columnas de una tabla.
+
+    SHOW COLUMNS FROM <tablename>; 
+Borra una tabla de una base de datos.
+
+    DROP TABLE <tablename>;
+Insercion de datos a una tabla.
+
+    INSERT INTO <database> (table1, table2,table3) VALUES (valor1,valor2,valor3); 
+
+> IMPORTANTE : Los datos de table1, table2 y table3 tienen que cuadrar con el orden de VALUES. Es decir, si table1 es un INT y la segunda es un VARCHAR, es importante seguir este orden al especificar los valores. Value1 debe ser un INT y value2 debe ser un VARCHAR.
+
+Para seleccionar las columnas de una tabla.
+
+    SELECT <columna> FROM <tablename>;
+WHERE -> Condicional que usaremos en algunas sentencias para establecer algunas condiciones.
+
+     select <columna> from <tablename> WHERE;
+AS -> Se utiliza para cambiar el nombre en los resultados de una query.
+
+    SELECT <columna> AS <new_name_columna> FROM <tablename>; 
+SET UPDATE -> Para actualizar valores de una tabla siguiendo una condicion X.
+
+    UPDATE <columna> SET <condition> WHERE <condition>
+> EXAMPLE: UPDATE cats SET breed='British Shorthair' WHERE name='Ringo';
+>  
+> En este ejemplo, actualizaremos en la tabla cats (gatos) la raza de todos los gatos llamados Ringo a 'British Shorthair'.
+
+DELETE -> Para borrar datos que ya no necesitamos de una tabla.
+
+    DELETE FROM <tablename> WHERE <condition>; 
+CONCAT -> Para unir varios strings.
+
+    SELECT CONCAT(columna1, ' ', columna2) FROM <database>;
+> Ejemplo : SELECT CONCAT(author_fname, ' ', author_lname) FROM books;
+>    
+> El resultado seria el nombre completo del autor con un espacio en medio.
+
+    
+
+ 
+
+
+    
