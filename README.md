@@ -150,7 +150,36 @@ CONCAT -> Para unir varios strings.
 >    
 > El resultado seria el nombre completo del autor con un espacio en medio.
 
-    
+CONCAT_WS -> Para rellenar los espacios con un caracter en concreto
+
+    SELECT CONCAT_WS (‘!’,’hola’,’adios’,’hola’); 
+> Resultado :  'hola!adios!hola' 
+
+SUBSTRING -> Sirve para selecionar de un string desde la posicion en la que empieza el numero A hasta el numero B
+
+    SELECT SUBSTRING('Hello World', 1, 4); 
+>Resultado : Hello
+
+Replace -> Remplaza una parte de un string por los caracteres que especifiquemos.  
+
+Dentro del parentesis se dividira en 3 partes.  
+  
+Con la primera ponemos el string objetivo.  
+La segunda sera el componente que queremos cambiar de nuestro string.  
+La tercera el valor por el que se substituiran los valores especificados en la anterior parte.  
+
+    SELECT REPLACE( ‘www.mysql.com’, ‘w’, ‘Ww’) 
+>Resultado : WwWwWw.mysql.com
+
+REVERSE : Cogerá cualquier string que le pasamos y lo devolvera al reves.  
+LENGTH : Calcula como de largo es un string en base de sus bytes.  
+CHAR_LENGTH : Cuenta como de largo es un string en base de sus caracteres.  
+UPPER and LOWER : Para pasar un string a mayusculas o a minusculas. UCASE() LCASE()   
+TRIM : Para remover los espacios de la izquierda o la derecha de un string.  
+
+
+
+
 
  
 
